@@ -1,0 +1,66 @@
+/* Celkové nastavení stránky */
+body {
+    background-color: #f0f0f0; /* Světle šedé pozadí jako na obrázku */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+/* Styl pro bílé karty */
+.card {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Jemný stín */
+    margin-bottom: 30px;
+}
+
+/* Nadpisy */
+h1, h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+/* Seznamy */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Formuláře a vstupy */
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Hlášky ze session */
+.message {
+    background-color: #e7f3ff;
+    color: #004085;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
